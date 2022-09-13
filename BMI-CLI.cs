@@ -4,6 +4,11 @@ namespace my_console_app
 {
     class Program
     {
+        /*
+        Sample exec command:
+        dotnet run bmi --height 1.75 --weight 75
+        dotnet run bmi --weight 75 --height 1.75
+        */
         const string VERSION_NUMBER = "1.0";
         const string BMI = "bmi", HELPS = "--helps", VERSION = "--version", HEIGHT = "--height", WEIGHT = "--weight";
         static void Main(string[] args)
