@@ -39,7 +39,7 @@ namespace my_console_app
                         break;
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine();
                 Console.WriteLine("Invalid command :(");
